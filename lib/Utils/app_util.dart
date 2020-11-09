@@ -14,13 +14,13 @@ final String APPADDRESS3 = "Nederland";
 final String APPTAX = "Tax registration ID NL001569325B27";
 final String SERVICEEMAIL = "info@ahhhjoh.nl";
 
-String token = 'Your Ecwid Key';
+String token = 'secret_b5kMRG7u1917y27rYqSr5YrvL4yhwUJw';
 
 final String BASE_URL = "https://app.ecwid.com/api/v3/35091210/";
 final String ORDER_URL = BASE_URL + "orders?token=" + token;
 final String ORDER_UPDATE = BASE_URL + "orders/";
 
-String postNLKey = 'Your PostNL Key';
+String postNLKey = 'SKXbh9GFWTNxAdBs8E573f7gjvzvtg8R';
 final String POSTNL_URL= "https://api-sandbox.postnl.nl/shipment/";
 final String BARCODE_URL = POSTNL_URL + "v1_1/barcode?CustomerCode=NYQJ&CustomerNumber=10738096&Type=3S&Serie=000000000-999999999";
 final String TRACKING_URL = POSTNL_URL + "v2/status/barcode/";
